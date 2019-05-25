@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.header, .container form {
+  text-align: center;
+  margin: 1em 0;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.container form {
+  margin: 4em 0;
+}
+
+
+
