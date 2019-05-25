@@ -134,3 +134,19 @@ class FilterableMeteoriteLandingTable extends React.Component {
     }
 }
 
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <Header />
+                <FilterableMeteoriteLandingTable />
+            </div>
+        );
+    }
+}
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('app')
+);
+
