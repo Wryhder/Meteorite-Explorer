@@ -47,7 +47,7 @@ class MeteoriteLandingRow extends React.Component {
                 <td>{meteoriteLanding.recclass}</td>
                 <td>{meteoriteLanding.mass}</td>
                 <td>{meteoriteLanding.fall}</td>
-                <td>{new Date(meteoriteLanding.year).getFullYear()}</td>
+                <td>{String(new Date(meteoriteLanding.year).getFullYear())}</td>
                 <td>{meteoriteLanding.reclat}</td>
                 <td>{meteoriteLanding.reclong}</td>
             </tr>

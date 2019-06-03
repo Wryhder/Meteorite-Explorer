@@ -121,7 +121,7 @@ var MeteoriteLandingRow = function (_React$Component3) {
                 React.createElement(
                     "td",
                     null,
-                    new Date(meteoriteLanding.year).getFullYear()
+                    String(new Date(meteoriteLanding.year).getFullYear())
                 ),
                 React.createElement(
                     "td",
