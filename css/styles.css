@@ -10,13 +10,23 @@ body {
   margin: 1em 0;
 }
 
-table {
-  margin: 0 auto;
-}
-
 .container form {
   margin: 4em 0;
 }
 
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
 
+thead {
+  text-align: left;
+  padding-bottom: 1.2em;
+  background-color: paleturquoise;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: .4em;
+}
 
